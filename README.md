@@ -1,6 +1,7 @@
 # OceanKita Station Analysis
 
-OceanKita Station Analysis is a data-driven project focused on exploring, analyzing, and visualizing oceanographic data collected from multiple monitoring stations. The goal is to gain insights into key environmental parameters—such as temperature, salinity, and other sensor readings—to better understand the marine environment and support research, conservation, and policy-making efforts.
+OceanKita Station Analysis is a data-driven project designed to investigate how environmental factors—namely wind conditions, tidal movements, and rainfall intensity—influence the amount of debris observed in rivers across multiple monitoring stations. This analysis is guided by a set of targeted questions aimed at understanding whether and how these natural variables contribute to waste accumulation patterns. The project combines spatial and temporal data integration, statistical modeling, and exploratory analysis to support data-informed recommendations for environmental monitoring and river waste management.
+
 
 ## Overview
 
@@ -17,9 +18,10 @@ All analysis is conducted using Python in a Jupyter Notebook (`OceanKita_Station
 - dataset/Data.csv & dataset/dl.csv: clean datasets from OceanKita’s monitoring stations.
 
 ## Key Features
-- 📊 Interactive Data Analysis: Jupyter Notebook (OceanKita_Station_Analysis.ipynb) for step-by-step data exploration and visualization.
-- 🌊 Environmental Monitoring: Focus on critical oceanographic variables relevant to marine science and resource management.
-- 🗺️ Multi-Station Comparison: Analyze and compare data across different monitoring locations.
+- 📊 Exploratory Data Analysis: A structured Jupyter Notebook (OceanKita_Station_Analysis.ipynb) provides a step-by-step breakdown of data cleaning, transformation, and visual exploration.
+- 🌬️ Environmental Factor Assessment: Investigates the influence of wind speed, tidal phase, and cumulative rainfall on river debris accumulation.
+- 🌐 Multi-Station Insight: Compares behavior across multiple rivers to identify location-specific patterns and environmental sensitivities.
+- 📈 Statistical Modeling: Includes correlation analysis and regression modeling to evaluate linear and interaction effects of environmental variables.
   
 
 ## Repository Structure
