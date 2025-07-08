@@ -16,9 +16,10 @@ All analysis is conducted using Python in a Jupyter Notebook (`OceanKita_Station
 
 ```
 oceankita-station-analysis/
+├── dataset/                          # Dataset directory
 ├── OceanKita_Station_Analysis.ipynb  # Main analysis notebook
-├── data/                             # (Optional) Directory for raw/clean data
 └── README.md                         # Project documentation
+└── requirements.txt                  # Project dependencies 
 ```
 
 ## Requirements
